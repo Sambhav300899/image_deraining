@@ -1,4 +1,4 @@
-# image_deraining
+# Image Deraining
 Image de-raining using a U-net like architecture. Image de-raining has been a problem gaining attention recently, this is due to the degredation in performance of models when used in rainy scenes. In this project I try out some of my methods to derain images. 
 
 ## Setup
