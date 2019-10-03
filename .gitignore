@@ -1,0 +1,6 @@
+dataset
+logs
+__pycache__
+snapshots
+classifier.hdf5
+

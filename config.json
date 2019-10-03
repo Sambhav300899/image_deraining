@@ -1,0 +1,15 @@
+{
+  "data":{
+  "train_data" : "dataset/train",
+  "val_data" : "dataset/val",
+  "rainy_img_path" : "dataset/rainy_images"},
+
+  "train":{
+  "model_callbacks" : "snapshots",
+  "logs" : "logs",
+  "epochs" : 500,
+  "batch_size" : 2,
+  "initial_lr" : 1e-5,
+  "final_model_name" : "classifier.hdf5"
+  }
+}
