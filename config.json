@@ -5,10 +5,11 @@
   "rainy_img_path" : "dataset/rainy_images"},
 
   "train":{
+  "train_val_split" : 0.25,
   "model_callbacks" : "snapshots",
   "logs" : "logs",
-  "epochs" : 500,
-  "batch_size" : 2,
+  "epochs" : 250,
+  "batch_size" : 8,
   "initial_lr" : 1e-5,
   "final_model_name" : "classifier.hdf5"
   }

@@ -18,6 +18,10 @@ def generator(images_path = 'dataset/train', rainy_img_inputs = 'dataset/rainy_i
         if len(img_list) < bs:
             img_list = orig_imgs
 
+        '''
+        create random samples from the img_list and remove them from img_list so that they
+        aren't sampled again, also reset img_list once there are inadequate image left in the set
+        '''
         gt_imgs = random.sample(img_list, bs)
         img_list = list(set.difference(set(gt_imgs), set(img_list)))
 
