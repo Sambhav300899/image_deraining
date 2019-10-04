@@ -10,6 +10,15 @@ git clone https://github.com/Sambhav300899/image_deraining.git
 ### Dataset
 Download the dataset from https://github.com/jinnovation/rainy-image-dataset in your current repository
 
+### Dependencie
+```bash
+pip install tensorflow-gpu
+pip install keras
+pip install keras-rectified-adam
+pip install numpy
+pip install matplotlib
+```
+
 ### Preparing the dataset
 ```bash
 mkdir dataset
