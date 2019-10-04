@@ -17,4 +17,4 @@ mv rainy-image-dataset/ground\ truth dataset/train
 mv rainy-image-dataset/rainy\ image dataset/rainy_images
 rm -rf rainy-image-dataset/
 python3 make_dataset.py --config config.json
-
+```
