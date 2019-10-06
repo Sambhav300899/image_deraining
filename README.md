@@ -27,3 +27,13 @@ mv rainy-image-dataset/rainy\ image dataset/rainy_images
 rm -rf rainy-image-dataset/
 python3 make_dataset.py --config config.json
 ```
+
+# Training 
+```bash
+python train.py --config config.json
+```
+
+# Prediction
+```bash
+python predict.py --config config.json --img {image_name}
+```
